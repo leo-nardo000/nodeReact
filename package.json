@@ -1,0 +1,22 @@
+{
+  "name": "restapinode",
+  "version": "1.0.0",
+  "description": "Rest api para practicar",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src --ignore ./4.frontend_react",
+    "start": "node src"
+  },
+  "author": "Leonardo",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.16",
+    "multer": "^1.4.2",
+    "shortid": "^2.2.16"
+  }
+}
